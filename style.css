@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.body{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    border: 5px solid hsl(0, 0%, 8%);
+    border-radius: 15px;
+    position: fixed;
+    background-color: hsl(0, 0%, 12%);
+    width: 30%;
+    height: 80%;
+    max-width: 100dvh;
+    max-height: 100dvh;
+    margin: auto;
+    inset: 0px;
+    padding: 10px;
+}
+#avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+@font-face {
+    font-family: inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+#p1{
+    font-family: inter;
+    color: white;
+
+}
+#p11{
+    font-family: inter;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0%;
+}
+#p2{
+    font-family: inter;
+    color: white;
+    font-size: small;
+    margin-top: 0%;
+    font-weight: bold;
+}
+#p3{
+    font-family: inter;
+    color: white;
+    font-size: small;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+button{
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    width: 95%;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-family: inter;
+    font-weight: bold;
+    border: solid hsl(0, 0%, 12%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
