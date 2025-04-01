@@ -78,4 +78,18 @@ button:hover{
     color: black;
     cursor: pointer;
 }
-
+@media (max-width: 768px) {
+    .container{
+        width: 90%;
+        height: 90%;
+        max-width: 100dvh;
+        max-height: 100dvh;
+    }
+    #avatar{
+        width: 20%;
+    }
+    button{
+        width: 90%;
+    }
+    
+}
